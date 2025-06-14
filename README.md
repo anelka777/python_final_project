@@ -12,17 +12,19 @@ This project is an end-to-end data pipeline that involves:
 
 ## Project Structure
 
+```
 python_final_project/
-├── scraper/ # Web scraping logic
-│ ├── scraper.py
-│ ├── config.py
-│ └── utils.py
-├── data/ # Raw scraped CSV files (gitignored)
-├── database/ # SQLite import & query scripts
-├── dashboard/ # Streamlit or Dash app
-├── requirements.txt # List of dependencies
-├── README.md # This file
+├── scraper/             # Web scraping logic
+│   ├── scraper.py
+│   ├── config.py
+│   └── utils.py
+├── data/                # Raw scraped CSV files (gitignored)
+├── database/            # SQLite import & query scripts
+├── dashboard/           # Streamlit or Dash app
+├── requirements.txt     # List of dependencies
+├── README.md            # This file
 └── .gitignore
+```
 
 
 
