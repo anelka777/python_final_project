@@ -13,8 +13,3 @@ venv/
 # macOS / Windows hidden files
 .DS_Store
 Thumbs.db
-
-# Data files
-*.sqlite3
-*.db
-data/
