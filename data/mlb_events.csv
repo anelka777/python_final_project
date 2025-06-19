@@ -1,0 +1,21 @@
+Event,Description
+Base on Balls,Number of walks earned by a batter (BB)
+Batting Average,Ratio of a batter’s hits to at-bats (AVG)
+Complete Games,Games where the starting pitcher pitched the entire game
+Doubles,Number of two-base hits
+ERA,Earned Run Average – average earned runs allowed per 9 innings by a pitcher
+Games,Total number of games played (or appeared in)
+Hits,Total number of hits recorded
+Home Runs,Total number of home runs hit
+On Base Percentage,Frequency of a batter reaching base (OBP)
+RBI,Runs Batted In – number of runs a batter drove in
+Runs,Total number of runs scored
+Saves,Successful games finished by a relief pitcher under certain conditions
+Shutouts,Complete games where the pitcher allowed no runs
+Slugging Average,Total bases per at-bat a measure of power hitting (SLG)
+Stolen Bases,Number of successful stolen bases
+Strikeouts,Number of times the batter or pitcher recorded a strikeout
+Total Bases,Total number of bases gained from hits
+Triples,Number of three-base hits
+Winning Percentage,Pitcher’s win percentage (Wins / Decisions)
+Wins,Number of games won by a pitcher
