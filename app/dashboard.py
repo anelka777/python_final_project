@@ -6,7 +6,8 @@ import plotly.express as px
 import os
 
 # Path to the database
-DB_PATH = os.path.join("..", "data", "mlb_stats.db")
+DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "mlb_stats.db")
+DB_PATH = os.path.abspath(DB_PATH)
 
 # Function to load all unique values from both tables (hitting + pitching)
 def get_unique_values(column):
@@ -26,6 +27,7 @@ events = get_unique_values("Event")
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server
 app.title = "MLB Stats Dashboard"
 
 app.layout = html.Div([
